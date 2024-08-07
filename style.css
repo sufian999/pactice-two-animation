@@ -1,0 +1,48 @@
+.top{
+  width: 400pX;
+  height: 300pX;
+  background-color: green;
+}
+.top-one{
+  width: 100pX;
+  height: 100pX;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+  position: relative;
+  animation: sufian 2s ease-in 1s infinite alternate;
+}
+@keyframes sufian{
+  from{left: 0;}
+  to{left: 300px;}
+}
+.two{
+  width: 400pX;
+  height: 300pX;
+  background-color: red;
+}
+.two-ball{
+width: 100pX;
+  height: 100pX;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  position: relative;
+  animation: sufian-two 4s ease-in 1s infinite alternate;
+}
+.two-ball img{
+  width: 100pX;
+  height: 100pX;
+  border-radius: 50%;
+  }
+
+@keyframes sufian-two{
+  0%{top: 0;
+    left: 0;}
+  33%{left: 80px;
+    top: 180pX;}
+  66%{left: 160pX;
+    top: 0;}
+  100%{left:300pX;
+    top:180pX;}
+}
