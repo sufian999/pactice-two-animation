@@ -46,3 +46,22 @@ width: 100pX;
   100%{left:300pX;
     top:180pX;}
 }
+.main-one{
+  width: 400px;
+  height: 300pX;
+  background-color: black;
+}
+.last{
+  width: 400px;
+  height: 300pX;
+  background-color: red;
+  border-radius: 50%;
+  transition: transform 0s 0s;
+  color: white;
+  text-align: center;
+}
+
+.last:hover{
+  transform: rotate(80deg) scale(0.3);
+  text-overflow: hidden;
+}
