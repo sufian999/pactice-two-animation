@@ -59,9 +59,12 @@ width: 100pX;
   transition: transform 0s 0s;
   color: white;
   text-align: center;
+  font-size: 30px;
 }
 
 .last:hover{
-  transform: rotate(80deg) scale(0.3);
-  text-overflow: hidden;
+  transform: rotate(0deg) scale(0.3);
+align-items: center;
+  font-size: 50px;
+  color:yellow;
 }
